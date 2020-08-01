@@ -1,0 +1,134 @@
+{
+  "categories": [
+    {
+      "title": "Craft Beer",
+      "link": "",
+      "color": "#00171F",
+      "extra_link": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "title": "Craft Beer 101 - Crafting Better Beer Drinkers",
+          "url": "https://www.youtube.com/watch?v=qzSKcTzA4xE"
+        },
+        {
+          "title": "Evolution Craft Brewing Co. Brewing Process",
+          "url": "https://www.youtube.com/watch?v=kX8JBo4Qi34"
+        }
+      ]
+    },
+    {
+      "title": "Homebrewing",
+      "link": "",
+      "color": "#013D52",
+      "extra_link": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "title": "New England IPA (NEIPA) Home Brewing Recipe",
+          "url": "https://www.youtube.com/watch?v=8ponI2Ny20Q"
+        },
+        {
+          "title": "How to Make Beer, the Animation",
+          "url": "https://www.youtube.com/watch?v=Wxo9PHc3jNw"
+        }
+      ]
+    },
+    {
+      "title": "Beer Styles",
+      "link": "",
+      "color": "#007EA7",
+      "extra_link": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "title": "What's The Difference Between Lager and Ale?",
+          "url": "https://www.youtube.com/watch?v=iIehRysdhhQ"
+        }
+      ]
+    },
+    {
+      "title": "Talks",
+      "link": "",
+      "color": "#003459",
+      "extra_link": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "title": "Quem bebe por gosto - Francisco Campino",
+          "url": "https://www.youtube.com/watch?v=V5fFFDjbNC8"
+        },
+        {
+          "title": "Quem bebe por gosto - Fernando Gonçalves",
+          "url": "https://www.youtube.com/watch?v=J7_UaRx7XEo"
+        },
+        {
+          "title": "Quem bebe por gosto - Uma para o Caminho",
+          "url": "https://www.youtube.com/watch?v=tHgQ6tm9QkE"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "link": "",
+      "color": "#04889F",
+      "extra_link": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "title": "Porto Beer Fest",
+          "url": "https://www.youtube.com/watch?v=GpCvUbmQ3Zg"
+        },
+        {
+          "title": "Aveiro Craft Beer",
+          "url": "https://www.youtube.com/watch?v=edQXHg5Nobc"
+        },
+        {
+          "title": "Art Beer Fest",
+          "url": "https://www.youtube.com/watch?v=ok5jkW-kn-c"
+        },
+        {
+          "title": "Oliva Beer Mind",
+          "url": "https://www.youtube.com/watch?v=u91WxrUKIuc"
+        }        
+      ]
+    },
+    {
+      "title": "Sketches",
+      "link": "",
+      "color": "#00A8E8",
+      "extra_link": {
+        "text": "",
+        "url": ""
+      },
+      "videos": [
+        {
+          "title": "Partido Cerveja e Cultura - Cheia de gás",
+          "url": "https://www.youtube.com/watch?v=tJ5gAMNvuTo"
+        },
+        {
+          "title": "Tutorial Cerveja - Cheia de gás",
+          "url": "https://www.youtube.com/watch?v=igi2AaxD288"
+        },
+        {
+          "title": "Bruno Nogueira - Quase perfeita",
+          "url": "https://www.youtube.com/watch?v=sGHIG8S2H2M"
+        },
+        {
+          "title": "Ricardo Araújo Pereira - Por Portugal, repete o Ritual",
+          "url": "https://www.youtube.com/watch?v=3ilhsXWKfTA"
+        }
+      ]
+    }
+  ]
+}
