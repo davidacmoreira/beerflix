@@ -6,7 +6,7 @@ function RegisterVideo() {
   return (
     <PageDefault>
       <h1>Register Video</h1>
-      
+
       <Link to="/register/category">
         Register Category
       </Link>

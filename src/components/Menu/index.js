@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
 import './Menu.css';
-//import ButtonLink from './components/ButtonLink';
+// import ButtonLink from './components/ButtonLink';
 import Button from '../Button';
 
 function Menu() {
@@ -11,7 +11,7 @@ function Menu() {
       <Link to="/">
         <img className="Logo" src={Logo} alt="BEERFLIX" />
       </Link>
-      
+
       <Button className="ButtonLink" as={Link} to="/register/video">
         New Video
       </Button>

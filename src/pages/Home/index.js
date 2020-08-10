@@ -7,37 +7,37 @@ import Footer from '../../components/Footer';
 
 function Home() {
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: '#141414' }}>
       <Menu />
 
-      <BannerMain 
-        //videoTitle={initData.categories[0].videos[0].title}
+      <BannerMain
+        // videoTitle={initData.categories[0].videos[0].title}
         url={initData.categories[0].videos[0].url}
-        //videoDescription={""}
+        // videoDescription={""}
       />
 
-      <Carousel 
+      <Carousel
         ignoreFirstVideo
         category={initData.categories[0]}
       />
 
-      <Carousel 
+      <Carousel
         category={initData.categories[1]}
       />
 
-      <Carousel 
+      <Carousel
         category={initData.categories[2]}
       />
 
-      <Carousel 
+      <Carousel
         category={initData.categories[3]}
       />
 
-      <Carousel 
+      <Carousel
         category={initData.categories[4]}
       />
 
-      <Carousel 
+      <Carousel
         category={initData.categories[5]}
       />
 

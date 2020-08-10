@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function RegisterCategory() {
   const initValues = {
     name: '',
     description: '',
     color: '',
-  }
+  };
   const [categories, setCategories] = useState([]);
   const [values, setValues] = useState(initValues);
 
@@ -16,13 +17,13 @@ function RegisterCategory() {
     setValues({
       ...values,
       [key]: value,
-    })
+    });
   }
 
   function handleChange(eventInfo) {
     setValue(
       eventInfo.target.getAttribute('name'),
-      eventInfo.target.value
+      eventInfo.target.value,
     );
   }
 
@@ -30,15 +31,19 @@ function RegisterCategory() {
     eventInfo.preventDefault();
     setCategories([
       ...categories,
-      values
+      values,
     ]);
 
-    setValues(initValues)
+    setValues(initValues);
   }
 
   return (
     <PageDefault>
-      <h1>Register Category: {values.name}</h1>
+      <h1>
+        Register Category:
+        {' '}
+        {values.name}
+      </h1>
 
       <form onSubmit={handleSubmit}>
         <FormField
@@ -65,19 +70,17 @@ function RegisterCategory() {
           value={values.color}
           onChange={handleChange}
         />
-        <button>
+        <Button>
           Register
-        </button>
+        </Button>
       </form>
-      
+
       <ul>
-        {categories.map((category, index) => {
-          return (
-            <li key={`${category}${index}`}>
-              {category.name}
-            </li>
-          )
-        })}
+        {categories.map((category, index) => (
+          <li key={`${category}${index}`}>
+            {category.name}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
